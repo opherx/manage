@@ -168,8 +168,11 @@ body {
 .review img {
     width: 30%;
     position: absolute;
-    right: 137px;
     top: 67px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -349,7 +352,7 @@ body {
     display: none;
 }
 
-@media (min-width: 1024px)and (max-width:1440px) {
+@media (min-width: 451px)and (max-width:1440px) {
     body {
         display: none;
     }
